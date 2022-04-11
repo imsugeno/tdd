@@ -4,7 +4,6 @@ import "testing"
 
 func TestMultiplication(t *testing.T) {
 	five := NewDollar()
-	five.amount = 10
 	five.times(2)
 	if five.amount != 10 {
 		t.Error()
